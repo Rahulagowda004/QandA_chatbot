@@ -32,7 +32,7 @@ st.title("Enhanced Q&A Chatbot With groq")
 st.sidebar.title("settings")
 api_key = st.sidebar.text_input("enter your groq api key")
 
-llm = st.sidebar.selectbox("select an OpenAI model",["gemma2-9b-it","llama3-groq-70b-8192-tool-use-preview","gemma-7b-it","llama3-groq-8b-8192-tool-use-preview"])
+llm = st.sidebar.selectbox("select an OpenAI model",["gemma2-9b-it","llama3-groq-70b-8192-tool-use-preview","gemma-7b-it","llama3-groq-8b-8192-tool-use-preview","llama-3.2-1b-preview","llama-3.2-3b-preview","mixtral-8x7b-32768","llava-v1.5-7b-4096-preview"])
 
 temperature  = st.sidebar.slider("Temperature",min_value=0.0,max_value=1.0,value=0.7)
 max_tokens = st.sidebar.slider("Max tokens",min_value=50,max_value=300,value=150)
