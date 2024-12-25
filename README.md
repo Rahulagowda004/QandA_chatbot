@@ -25,8 +25,8 @@ Welcome to the **Enhanced Q&A Chatbot**, an AI-powered application built with **
 
 1. Clone the repository 📂:
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/Rahulagowda004/QandA_chatbot.git
+   cd Rahulagowda004/QandA_chatbot
    ```
 
 2. Install dependencies 📦:
